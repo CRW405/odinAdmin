@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  background-color: #eeeeee;
+  width: 80%;
+  border-radius: 20px;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  padding-left: 1rem;
+}
+
+main {
+  background-color: #eeeeee;
+  flex: 8;
+}
+
+img {
+  display: block;
+  background-color: #ee00ee;
+  height: 100%;
+  aspect-ratio: 1 /1;
+  border-radius: 50%;
+}
+
+button {
+  background-color: lightblue;
+  color: #ffffff;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 20px;
+}
+
+.project-card {
+  border-radius: 10px;
+  border-left: 1rem solid yellow;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  height: 30%;
+  width: 45%;
+}
+
+.action-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.notification,
+.search-glass,
+.star,
+.eye,
+.branch {
+  background-color: #0000ee;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  display: inline-block;
+}
+
+#nav-section {
+  background-color: lightblue;
+  color: white;
+  padding: 1rem;
+  flex: 2;
+  height: 100%;
+}
+
+#logo-title-div {
+  display: flex;
+}
+
+#site-header-div {
+  display: flex;
+  flex-direction: row;
+}
+
+#search-bar-div {
+  flex: 7;
+  display: flex;
+}
+
+#logged-in-user-div {
+  flex: 3;
+  display: flex;
+  height: 2rem;
+}
+
+#logged-in-user-div h2 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#user-header-div {
+  height: 70%;
+  width: 100%;
+  display: flex;
+}
+
+#button-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
