@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   font-family: sans-serif;
 }
 
@@ -14,6 +14,7 @@ body {
 
 body {
   display: flex;
+  background-color: #eeeeee;
 }
 
 ul {
@@ -25,6 +26,7 @@ input {
   background-color: #eeeeee;
   width: 80%;
   border-radius: 20px;
+  border: none;
 }
 
 header {
@@ -53,6 +55,7 @@ button {
   color: #ffffff;
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 20px;
+  border: none;
 }
 
 .project-card {
@@ -78,6 +81,8 @@ button {
   height: 100%;
   aspect-ratio: 1 / 1;
   display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #nav-section {
@@ -85,7 +90,7 @@ button {
   color: white;
   padding: 1rem;
   flex: 2;
-  height: 100%;
+  height: max;
 }
 
 #logo-title-div {
@@ -127,8 +132,11 @@ button {
   margin-left: auto;
 }
 
+#main-grid {
+  display: flex;
+}
+
 #your-projects {
-  width: 80%;
 }
 
 #project-grid {
@@ -137,9 +145,19 @@ button {
 }
 
 #sidebar {
-  width: 20%;
   display: grid;
+  width: 30%;
 }
 
-#main-grid {
+#announcements,
+#trending {
+  margin: 0.5rem;
+}
+
+#announcements-list,
+#trending-list {
+  margin: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
 }
