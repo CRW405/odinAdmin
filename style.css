@@ -61,8 +61,6 @@ button {
   margin: 1rem;
   padding: 1rem;
   background-color: #ffffff;
-  height: 30%;
-  width: 45%;
 }
 
 .action-list {
@@ -126,5 +124,22 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  margin-left: auto;
+}
+
+#your-projects {
+  width: 80%;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#sidebar {
+  width: 20%;
+  display: grid;
+}
+
+#main-grid {
 }
